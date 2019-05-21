@@ -1,0 +1,68 @@
+
+#mainNav {
+  background-color: white;
+  padding-top: 0px;
+  box-shadow: 0 5px 50px rgba(40,40,40,.15);
+}
+
+#mainNav .navbar-toggler {
+  font-size: 140%;
+  right: 0;
+  padding: 13px;
+  margin-top: 2px;
+  color: #1a9ee0;
+  border: 0;
+  background-color: transparent;
+}
+
+#mainNav .navbar-brand {
+  color: #1a9ee0;
+}
+
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: #1a9ee0;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-size: 98%;
+  font-weight: 400;
+  padding: 0.75em 0;
+  letter-spacing: 2px;
+  color: #1a9ee0;
+  /*box-shadow: none;*/
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #1a9ee0;
+  font-weight: bold;
+  /*box-shadow: none;*/
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color: white;
+  }
+  #mainNav .navbar-brand {
+    font-size: 1.75em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    padding: 1.1em 1em !important;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: white;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.25em;
+    padding: 12px 0;
+  }

@@ -1,0 +1,53 @@
+#mainMember {
+    margin-top: 50px;
+    background-color: white;
+    background-image: url("../img/bg-top-sided.png");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+#ezMember {
+    margin-top: 0px;
+    background-color: white;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+#ezMember .ezText {
+    color:#149CD7;
+    font-size: 60px;
+    margin: 0px;
+    text-align: center;
+    font-family: 'DoHyeon', sans-serif;
+}
+
+.myBtn {
+    margin: 50px;
+    font-size: 30px;
+    font-family: 'Muli', sans-serif;
+    font-weight: 700;
+    padding: 18px;
+    transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    background:#2660a4;
+    color:#fff;
+    border-radius:0px;
+}
+
+.myBtn:hover {
+    border-radius: 30px;
+}
+
+/*STEP 1*/
+#step1top {
+    margin-top: 50px;
+    width: 100%;
+    padding-bottom: 0px !important;
+}

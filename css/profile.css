@@ -1,0 +1,41 @@
+#myProfile .imgCircled {
+  border: 1px dashed #1a9ee0;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+#myProfile .title {
+  text-align: center;
+  font-family: 'DoHyeon', sans-serif;
+  font-size: 44px;
+  font-weight: bold;
+  color: #1a9ee0;
+  margin-top:15px;
+}
+
+.btnChoose{
+  padding:10px 19px;
+  border-radius:0.3em;
+ -webkit-border-radius:0.3em;
+  -moz-border-radius:0.3em;
+  -o-border-radius:0.3em;
+   color:#4D4949;
+  background:#F3F3F3;
+  border:1px solid #EBEBEB;
+  font-weight:bold;
+  font-size:15px;
+  outline:none;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  margin-top:15px;
+  cursor: pointer;
+}
+
+.btnChoose:hover {
+  background:#2660a4;
+  color:#fff;
+}

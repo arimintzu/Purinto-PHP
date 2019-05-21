@@ -1,0 +1,938 @@
+/*font-font*/
+
+@font-face {
+    font-family: 'Alien-Encounters';
+    src: url('../font/Alien-Encounters-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'DoHyeon';
+    src: url('../font/DoHyeon-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Muli';
+  src : url('../font/Muli.ttf');
+}
+
+
+
+body {
+    text-align: center;
+    /*background-image: url('../wallpaper.png');*/
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    font-family: 'Alien-Encounters';
+}
+
+/*NAVBAR*/
+#mainNav .navbar-nav .nav-item .nav-link{
+    font-size: 70%;
+}
+
+::placeholder {
+  opacity: 0.6;
+  color:gray;
+}
+.hide{
+    display: none !important;
+}
+
+/*header*/
+
+.logo-ifest {
+    width: 7%;
+    padding-top: 15px;
+    display: inline-block;
+}
+
+.header-text {
+    font-family: 'Alien-Encounters';
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+.header-ifest a {
+    text-decoration: none;
+}
+
+/*--------------------------------------*/
+.with-box-radius {
+  border-radius:100px;
+  border-color: white;
+  background-image: url('../images/register-bg.png');
+  margin-left: 25%;
+  width:50%;
+  color:white !important;
+  font-family: 'Alien-Encounters';
+  border-style: inset;
+}
+
+.img-for-join {
+  position: relative !important;
+  width: 11.11%;
+  top:50px;
+}
+
+.blibli-top {
+  position : relative !important;
+  right:60px;
+  width: 15%;
+}
+
+.hd-list-menu {
+    text-transform: uppercase;
+    list-style-type: none;
+    text-align: right;
+    padding-bottom: 0;
+    margin-bottom: 5px;
+}
+
+.hd-list-menu li {
+    display: inline;
+}
+
+.myText {
+  font-family: 'DoHyeon', sans-serif;
+  text-align: left;
+  color:white;
+  font-size:80px;
+  margin-top: 30px;
+  font-weight: 700;
+  margin-left: 80px;
+}
+
+.btnJoin {
+  font-family: 'DoHyeon', sans-serif;
+  text-align: center;
+  color:#1a9ee0;
+  letter-spacing: 2px;
+  font-size:25px;
+  font-weight: normal;
+  margin-left: 80px;
+  margin-bottom: 90px;
+  background-color: white;
+  border: none;
+  width:300px;
+  height:50px;
+  border-radius: 0px;
+  font-style: italic;
+  -webkit-transition:  0.4s ease-in-out;
+  transition:  0.4s ease-in-out;
+}
+
+.btnJoin:hover {
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+  -webkit-transition:  0.4s ease-in-out;
+  transition:  0.4s ease-in-out;
+}
+
+
+/*menubar*/
+
+
+
+#main {
+    margin-top: 50px;
+    background-color: black;
+    background-image: url("../img/bg-top.png");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+#main p {
+  font-family: 'Muli', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.logoevent {
+    width: 38%;
+}
+
+
+#main a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#main .go-btn {
+  margin-top: 100px;
+  padding:30px;
+  font-size: 23px;
+  font-family:'Alien-Encounters';
+  font-weight:normal;
+  background-color:#4aa0d5;
+  color:white;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  text-decoration:none;
+  -webkit-transition:0.3s all ease;
+  transition:0.3s ease all;
+}
+
+#main .go-btn:hover {
+  font-family:'Alien-Encounters';
+  background-color:#295c7b;
+  font-weight: bold;
+  color:white;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+#main .mysecondtext {
+  font-family: 'DoHyeon', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color:#0093dd;
+  font-size:58px;
+  margin-top: 70px;
+  border-top: 3px dashed #0093dd;
+  width: 75%;
+}
+
+.jejeran {
+  display: inline-table !important;
+}
+
+.nav ul > li {
+    display: inline-table;
+    list-style: none;
+    padding: 10px;
+}
+
+.nav ul {
+    float: right !important;
+    margin-bottom: 0 !important;
+}
+
+.nav li {
+    margin-bottom: 0 !important;
+}
+
+.nav a{
+    text-decoration: none;
+}
+
+.text-menubar {
+    font-family: 'Hack-Regular';
+    font-size: 15px;
+    color: #2764af;
+
+}
+
+/*STEP*/
+#step1 {
+  background-color:#649ee5;
+  padding-top:30px;
+  padding-bottom:30px;
+}
+
+#step2 {
+  background-color:#494747;
+  padding-top:30px;
+  padding-bottom:30px;
+}
+
+#step3 {
+  background-color:#DF3B39;
+  padding-top:30px;
+  padding-bottom:30px;
+}
+
+/* layanan */
+#layanan {
+  margin-top:0px;
+  font-family: 'Muli', sans-serif;
+  padding-top : 0px;
+  padding-bottom: 0px;
+  color: white;
+}
+
+#layanan p {
+  font-size: 30px;
+  font-family: 'DoHyeon', sans-serif;
+}
+
+#layanan h4 {
+  font-size: 2rem;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 40px;
+}
+
+/*testimonial*/
+#testimonial {
+  background-image: url("../images/bg-75.png");
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  padding-bottom: 50px;
+}
+
+#testimonial h4 {
+  font-family: 'DoHyeon', sans-serif;
+  letter-spacing: 4px;
+  color: #1a9ee0;
+}
+
+#testimonial .ezText {
+    color:#2660a4;
+    font-size: 60px;
+    margin-top: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#testimonial .myBtn {
+    margin: 50px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: 'Muli', sans-serif;
+    font-weight: 700;
+    padding: 18px;
+    transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    background:#2660a4;
+    color:#fff;
+    border-radius:0px;
+}
+
+#testimonial .myBtn:hover {
+    border-radius: 30px;
+}
+
+
+#footertitle {
+  font-family: 'DoHyeon', sans-serif;
+  color: white;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+/*sukses*/
+
+#sukses {
+    background-image: url("../images/bg-75.png");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    font-family: 'Hack-Regular';
+    margin-top: 0px;
+    padding-bottom: 0px;
+}
+
+#sukses-desc {
+  font-size: 26px;
+  font-style: italic;
+  font-family: 'Muli', sans-serif;
+  font-weight: 700;
+  color: #2660a4;
+  letter-spacing: 1px;
+}
+
+/*MY PROFILE*/
+
+#profile {
+    background-image: url("../images/bg-75.png");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    font-family: 'Hack-Regular';
+    margin-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+
+/*tentang*/
+
+#tentang {
+    background-image: url("../images/bg-75.png");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    font-family: 'Hack-Regular';
+    margin-top: 0px;
+    padding-bottom: 0px;
+}
+
+#tentang h4 {
+    font-family: 'DoHyeon', sans-serif;
+    letter-spacing: 4px;
+    color: #1a9ee0;
+}
+
+#tentang hr{
+    margin-top: 0px;
+    height: 10px;
+	  border: 0;
+	  box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+#tentang img {
+    width: 200px;
+    height: 400px;
+}
+
+#tentang h5 {
+  font-family: 'Muli', sans-serif;
+  letter-spacing: 4px;
+  font-size: 42px;
+  font-weight: lighter;
+}
+
+#tentang p {
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
+  text-align: justify;
+}
+
+
+
+/*LOGIN**/
+#login {
+    background-image: url("../images/bg-75.png");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    font-family: 'Hack-Regular';
+    margin-top: 50px;
+    padding-bottom: 96px;
+}
+
+.bordered-login {
+  border: 1px solid blue;
+}
+
+
+img {
+  width: 30%;
+  margin: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/*TEST*/
+section {
+  padding: 80px 0;
+}
+
+#picture-one, #picture-two {
+  position: relative;
+  top: 6px;
+}
+
+
+#dayum {
+  width: 43%;
+}
+
+
+#cekbok p {
+  margin-top: 35px;
+  font-size: 21px;
+  margin-bottom: 0px;
+  color: black;
+}
+
+td {
+  vertical-align: middle !important;
+}
+
+.table-anggota {
+  color : black;
+  width: 100%;
+  font-size: 18px;
+}
+
+th {
+  font-size: 21px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#hekfes {
+  width: 45%;
+}
+
+
+/*MOBILE RESPONSIVE*/
+@media (max-width:990px) {
+    #picture-one, #picture-two {
+      position: relative;
+      top: 10px;
+    }
+
+    #hasil #tuturu {
+        width:50% !important;
+    }
+
+    #main .mysecondtext {
+      font-size:50px;
+    }
+
+    #tentang img {
+      height: unset !important;
+      width: 45%;
+    }
+
+    .first {
+      margin-right: 0px;
+    }
+
+    .third {
+      margin-left: 0px;
+    }
+
+    #sk .sk-box {
+      margin-left: auto;
+      width: auto;
+    }
+
+    #hadiah h3 {
+      width: 35%;
+    }
+
+    #hadiah .boxed {
+      max-width: 70%;
+      margin-left: 16.5%;
+    }
+
+    #hadiah img {
+      width: 40%;
+    }
+
+    .blibli-top {
+      right: 40px;
+      width: 25%;
+    }
+
+    #hekfes {
+      width: 65% !important;
+    }
+
+    .myText {
+      font-size: 40px;
+    }
+
+    #tema #tema-left {
+      margin-left: 0px;
+    }
+
+    #tema #ecommerce {
+      margin-top: 75px;
+    }
+
+    #tema #tema-right {
+      max-width: 100%;
+    }
+
+    #dayum {
+      width: 63% !important;
+    }
+
+    header h1{
+      font-size: 2.2rem !important;
+    }
+}
+
+@media (max-width:766px) {
+  #dayum {
+    width: 75% !important;
+  }
+
+  #main .mysecondtext {
+    font-size:45px;
+  }
+
+    #hasil #tuturu {
+        width:65% !important;
+    }
+
+    #hadiah .boxed {
+      max-width: 80%;
+      margin-left: 10%;
+    }
+
+    #hadiah h3 {
+      width: 40%;
+    }
+
+    .blibli-top {
+      right: 30px;
+      width: 30%;
+    }
+
+    #hekfes {
+      width: 70% !important;
+    }
+
+    .myText {
+      font-size: 35px;
+    }
+
+    #tema #tema-left {
+      margin-left: 0px;
+    }
+
+    #tema #ecommerce {
+      margin-top: 0px;
+      width: 75%;
+    }
+
+    #tema #tema-right {
+      max-width: 100%;
+    }
+
+    #tema h3 {
+      margin-top:  0px;
+      text-align: center;
+    }
+
+    #tema p {
+      text-align: center;
+    }
+
+    header h1{
+      font-size: 35px !important;
+    }
+}
+
+#btnlgn {
+  margin-top: 50px; font-size: 20px; padding: 10px 100px;
+}
+@media (max-width:574px) {
+
+  #main .mysecondtext {
+    font-size:42px;
+  }
+
+  #hasil #tuturu {
+    width:70% !important;
+}
+
+  #main p {
+    font-size: 18px;
+  }
+
+    #sk .sk-box {
+      margin-left: 10px;
+      margin-right: 10px;
+      width: auto;
+    }
+
+    .blibli-top {
+      right: 20px;
+      width:40%;
+    }
+
+    #hekfes {
+      width: 80% !important;
+    }
+
+    #dayum {
+      width: 85% !important;
+    }
+
+    .myText {
+      font-size: 30px;
+    }
+
+    #tema #tema-left {
+      margin-left: 0px;
+    }
+
+    #tema #ecommerce {
+      margin-top: 0px;
+      width: 50%;
+    }
+
+    #tema #tema-right {
+      max-width: 100%;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    #tema h3 {
+      margin-top:  0px;
+    }
+
+    header h1{
+      font-size: 32px !important;
+    }
+
+}
+
+@media (max-width:400px) {
+
+  #main .mysecondtext {
+    font-size:35px;
+  }
+
+  #hadiah h3 {
+    width: 60%;
+  }
+
+  #hasil #tuturu {
+    width:90% !important;
+}
+
+  header h1{
+    font-size: 25px !important;
+  }
+
+
+  #btnlgn {
+    padding: 10px !important;
+  }
+
+}
+
+/*LOGIN CSS*/
+.intro-login{
+    margin: 0px !important;
+    display: block;
+    padding: 15px 0px;
+    background-color: #212529;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.border-login{
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.intro-login img{
+    max-width: 300px;
+}
+
+/*------------------------------------------------------------------
+[ Input ]*/
+
+.wrap-input100 {
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 15px 0;
+  }
+
+  .input100 {
+    font-size: 20px;
+    color: #555555;
+    line-height: 1.2;
+
+    display: block;
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    padding: 0 10px 0 80px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+
+  /*---------------------------------------------*/
+  .focus-input100 {
+    position: absolute;
+    display: block;
+    text-align: left !important;
+    width: 100% ;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+  }
+
+  .focus-input100::before {
+    content: "";
+    text-align: left !important;
+    display: block;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 0;
+    height: 1px;
+
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+
+    background: #3300ff;
+    background: -webkit-linear-gradient(left, #771086, #3300ff, #7db5fb);
+    background: -o-linear-gradient(left, #771086, #3300ff, #7db5fb);
+    background: -moz-linear-gradient(left, #771086, #3300ff, #7db5fb);
+    background: linear-gradient(left, #771086, #3300ff, #7db5fb);
+  }
+
+  .focus-input100::after {
+    font-family: 'Linearicons-Free';
+    font-size: 18px;
+    color: #999999;
+
+    content: attr(data-placeholder);
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 28px;
+    left: 35px;
+
+
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+
+  .input100:focus {
+    padding-left: 60px;
+  }
+
+  .input100:focus + .focus-input100::after {
+    left: 23px;
+    color: #3300ff;
+  }
+
+  .input100:focus + .focus-input100::before {
+    width: 100%;
+  }
+
+  .has-val.input100 + .focus-input100::after {
+    left: 23px;
+    color: #d41872;
+  }
+
+  .has-val.input100 + .focus-input100::before {
+    width: 100%;
+  }
+
+  .has-val.input100 {
+    padding-left: 60px;
+  }
+  input {
+	outline: none;
+	border: none;
+}
+
+
+header.masthead {
+  text-align: center;
+  color: white;
+  background-image: url("../images/bg-75.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header.masthead .intro-text {
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+header h1 {
+  font-family: 'Alien-Encounters';
+}
+
+header.masthead .intro-text .intro-lead-in {
+  font-size: 22px;
+  font-style: italic;
+  line-height: 22px;
+  margin-bottom: 25px;
+  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+header.masthead .intro-text .intro-heading {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 25px;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@media (min-width: 768px) {
+  header.masthead .intro-text {
+    padding-top: 150px;
+    padding-bottom: 50px;
+  }
+  header.masthead .intro-text .intro-lead-in {
+    font-size: 40px;
+    font-style: italic;
+    line-height: 40px;
+    margin-bottom: 25px;
+    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  header.masthead .intro-text .intro-heading {
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 75px;
+    margin-bottom: 50px;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+}
+
+
+/*uploader*/
+.dropbox {
+    outline: 2px dashed grey; /* the dash box */
+    outline-offset: -10px;
+    background: lightcyan;
+    color: dimgray;
+    padding: 10px 10px;
+    min-height: 200px; /* minimum height */
+    position: relative;
+    cursor: pointer;
+  }
+
+  .input-file {
+    opacity: 0; /* invisible but it's there! */
+    height: 300px;
+    width: 100%;
+    display: block;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .dropbox:hover {
+    background: lightblue; /* when mouse over to the drop zone, change color */
+  }
+
+  .dropbox p {
+    font-size: 1.2em;
+    text-align: center;
+    padding: 50px 0;
+  }
+
+.inputfile-style{
+      /*font-size: 100px;*/
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      opacity: 0;
+  }
